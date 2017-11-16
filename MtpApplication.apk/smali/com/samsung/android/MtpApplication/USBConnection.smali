@@ -32,6 +32,8 @@
 
 .field mDialog:Landroid/app/AlertDialog;
 
+.field mGrxHack:Z
+
 .field private mReceiver:Lcom/samsung/android/MtpApplication/MtpReceiver;
 
 .field private final mUSBRemovalReceiver:Landroid/content/BroadcastReceiver;
@@ -104,6 +106,10 @@
     invoke-direct {v0, p0}, Lcom/samsung/android/MtpApplication/USBConnection$1;-><init>(Lcom/samsung/android/MtpApplication/USBConnection;)V
 
     iput-object v0, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mUSBRemovalReceiver:Landroid/content/BroadcastReceiver;
+
+    const/4 v1, 0x0
+
+    iput-boolean v1, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mGrxHack:Z
 
     return-void
 .end method
@@ -343,7 +349,7 @@
 .end method
 
 .method protected onCreate(Landroid/os/Bundle;)V
-    .locals 2
+    .locals 3
 
     const-string/jumbo v0, "MTPUSBConnection"
 
@@ -367,6 +373,21 @@
 
     invoke-virtual {p0}, Lcom/samsung/android/MtpApplication/USBConnection;->showDiaglog()V
 
+    iget-boolean v2, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mGrxHack:Z
+
+    if-eqz v2, :cond_0
+
+    const-string v1, "Allow"
+
+    sput-object v1, Lcom/samsung/android/MtpApplication/USBConnection;->AllowClicked:Ljava/lang/String;
+
+    iget-object v0, p0, Lcom/samsung/android/MtpApplication/USBConnection;->mDialog:Landroid/app/AlertDialog;
+
+    if-eqz v0, :cond_0
+
+    invoke-virtual {v0}, Landroid/app/AlertDialog;->dismiss()V
+
+    :cond_0
     return-void
 .end method
 
@@ -641,13 +662,10 @@
 
     move-result v17
 
-    if-eqz v17, :cond_5
-
     const/16 v17, 0x1
 
     sput-boolean v17, Lcom/samsung/android/MtpApplication/USBConnection;->LoggingEnabled:Z
 
-    :cond_5
     invoke-direct/range {p0 .. p0}, Lcom/samsung/android/MtpApplication/USBConnection;->isKnoxCustomProKioskState()Z
 
     move-result v17
@@ -1371,6 +1389,12 @@
     move-object/from16 v0, v17
 
     invoke-virtual {v4, v0}, Landroid/app/AlertDialog$Builder;->setMessage(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;
+
+    move-object/from16 v1, p0
+
+    const/4 v0, 0x1
+
+    iput-boolean v0, v1, Lcom/samsung/android/MtpApplication/USBConnection;->mGrxHack:Z
 
     goto/16 :goto_1
 
