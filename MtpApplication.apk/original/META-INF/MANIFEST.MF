@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/checkbox.xml
+SHA1-Digest: sqmHhj+zz7yEzE9HeurEi/eoafo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: lJl/K3W8elyOVAoohIVoE7ZANSo=
+
+Name: res/drawable/stat_sys_data_usb.pio
+SHA1-Digest: 4Q32dzceig1MaAlLCm8jnrsaZ7c=
+
+Name: SEC-INF/buildConfirm.crt
+SHA1-Digest: rzhOt9eAouxefH7GQUAHHm1HIuI=
+
+Name: res/layout/linktext.xml
+SHA1-Digest: up5tJ+WWJMManVdUH/UWtAqHJwg=
+
+Name: res/layout/main.xml
+SHA1-Digest: EgAvJn7LFP99k0kQgWqbwp4OYn0=
+
+Name: SEC-INF/buildinfo.xml
+SHA1-Digest: rNgJTaAKQyCvyDq6JJwMjjZOYVM=
+
+Name: resources.arsc
+SHA1-Digest: vFNGzfncfopS+kx8aslE4lqVrN4=
+
+Name: res/drawable/stat_sys_phone_call.pio
+SHA1-Digest: o0B7PY5lKJGUpBBCdUP7AwF5HEc=
+

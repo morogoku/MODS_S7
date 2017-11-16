@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MTP应用程序</string>
+    <string name="error_title">注意</string>
+    <string name="bluetooth_running">启动 USB 模式将取消蓝牙。继续？</string>
+    <string name="alert_dialog_yes">是</string>
+    <string name="alert_dialog_no">否</string>
+    <string name="animation_initializing">初始化中…</string>
+    <string name="animation_connected">已连接</string>
+    <string name="animation_synchronizing">同步中…</string>
+    <string name="animation_downloading">下载中…</string>
+    <string name="animation_sending">发送中…</string>
+    <string name="notification_mtp_connected">已连接MTP</string>
+    <string name="notification_usb_connected">已连接USB</string>
+    <string name="notification_mtp_initialization">MTP初始化</string>
+    <string name="alert_dialog_ok">确认</string>
+    <string name="alert_dialog_cancel">取消</string>
+    <string name="media_scanner_running">媒体扫描器运行中…</string>
+    <string name="media_scanner_finished">媒体扫描完成</string>
+    <string name="kies_software_check">正在检查Samsung Kies(PC连接软件)…</string>
+    <string name="security_policy_restriction">安全政策限制 PC 连接的使用</string>
+    <string name="resume_to_call">恢复电话</string>
+    <string name="store_add_popup">MTP应用程序将重新启动以准备SD卡。继续？</string>
+    <string name="stms_version">GT-I9500_EUR_20131119_0437</string>
+    <string name="usb_switch_title">USB 3.0 连接</string>
+    <string name="usb_switch_notification">您的连接已自动更换到 USB 2.0，因为它已经停用了 %d 分钟。若要使用 USB 3.0，请通过通知面板打开 USB 选项并选择媒体设备 (USB 3.0)</string>
+</resources>

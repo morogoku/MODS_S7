@@ -1,0 +1,32 @@
+Signature-Version: 1.0
+X-Android-APK-Signed: 2
+SHA1-Digest-Manifest: c4hNnCHoeYQDu2wlMhMjnGmVDhA=
+Created-By: 1.0 (Android SignApk)
+
+Name: res/layout/checkbox.xml
+SHA1-Digest: XtnJ27gFjqkGYnsXApdg6QL7jIk=
+
+Name: AndroidManifest.xml
+SHA1-Digest: B7iNsyLL1tRomN+phFBycEsOypA=
+
+Name: res/drawable/stat_sys_data_usb.pio
+SHA1-Digest: 395TV6oVaa31BtcBhrp4NU6+rtE=
+
+Name: SEC-INF/buildConfirm.crt
+SHA1-Digest: ir36zvd3F1FnMg/xKS909hQVlS8=
+
+Name: res/layout/linktext.xml
+SHA1-Digest: EziXd5wrogtlV4o36YVc1gLEmxQ=
+
+Name: res/layout/main.xml
+SHA1-Digest: Xh9STJIZc6iSIA363MUzvtTXchU=
+
+Name: SEC-INF/buildinfo.xml
+SHA1-Digest: TiU48f9fw3PaT4ROgeBoSM75ggE=
+
+Name: resources.arsc
+SHA1-Digest: qu/MT1QTmWpYbhOkKQi/IDYuJSs=
+
+Name: res/drawable/stat_sys_phone_call.pio
+SHA1-Digest: yrQeJaxp8BtJX6s2JDLH1oT/fdY=
+
